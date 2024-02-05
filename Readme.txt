@@ -1,0 +1,1 @@
+$datenow = Get-Date -Format "yyyyMMddHHmmss";docker build -t evc_public_prepaid_web:$datenow .;docker tag evc_public_prepaid_web:$datenow devnuttapon/evc_public_prepaid_web:$datenow;docker push devnuttapon/evc_public_prepaid_web:$datenow

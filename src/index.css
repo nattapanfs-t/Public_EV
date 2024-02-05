@@ -1,0 +1,80 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.custom-button-wrapper {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-input::placeholder {
+  font-size: 0.9rem;
+  text-indent: 3px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  width: 200px;
+  background: #f5f6fa;
+  border: 0px #333 solid;
+  border-radius: 20px;
+  margin-right: 8px;
+  box-shadow: inset 3px 3px 8px #d4d3d3;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none; 
+  border-color: transparent; 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-card-title {
+    font-size: 1.4em;
+  }
+  .charging{
+    width: 210px;
+    height: 90x;
+  }
+  .charging::after {
+    width: 15px;
+  }
+  .h2{
+    font-size: 1rem;
+  }
+}
+
